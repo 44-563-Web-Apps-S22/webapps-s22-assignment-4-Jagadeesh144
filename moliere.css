@@ -1,6 +1,60 @@
-speech {
+.speech{
     font-size: 13px;
     //font-style: italic;
     color: blue;
     font-family: "Times New Roman";
 }
+
+.stagedirection{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15PX;
+    color: black;
+    background-color: blue;
+}
+
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: black;    
+}
+h6.name {
+    margin-block: auto;
+}
+.VAL {
+    color:maroon;
+}
+.JAC {
+    color:teal
+}
+
+.table,td{
+
+    border:1px solid black;
+    border-collapse:collapse;
+    text-align:left;
+    color:red;
+    padding:8px;
+    margin:10px;
+}
+
+th{
+    border:2px solid black;
+    text-align:left;
+    background-color: bisque;
+    padding:8px;
+    margin:10px;
+}
+
+tr:nth-child(even){
+    background-color:lightblue
+}
+
+.name:hover{
+
+    text-shadow:2px 2px 5px red;
+    color:teal;
+    filter:pink(3px);
+    border:double 2px black;
+
+}
+
